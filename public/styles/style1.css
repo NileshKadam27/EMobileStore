@@ -1,0 +1,11 @@
+#bgimage{
+    background-image: url("../images/lunch.jpg");
+    height:300px;
+    
+}
+#bgimage1{
+    background-image: url("../images/AdminImg.png");
+    height:136px;
+    width: 26%;
+    
+}

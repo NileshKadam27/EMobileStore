@@ -1,0 +1,608 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+border:0;
+padding:0;
+margin:0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,500,700);
+
+body {
+	color:#000;
+	font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+	width:100%;
+	overflow:hidden;
+}
+
+.top_bar {
+	width:100%;
+	background:#000;
+	color:#eee;
+	padding-top:8px;
+	text-align:right;
+}
+
+.logo {
+	margin-bottom:10px;
+}
+
+.login {
+	width:60%;
+	text-align:center;
+	margin:auto;
+	padding-top:15px;
+}
+
+.login li {
+	float:left;
+	list-style:none;	
+}
+
+.login li a {
+	float:left;
+	color:#eee;
+	text-decoration:none;	
+}
+
+.login li a:hover {
+	color:#fff;
+}
+
+
+.login span {
+	float:left;
+	margin:0 10px 0 10px;
+}
+
+header {
+	width:100%;
+	float:left;
+	margin-top:15px;
+}
+
+.navigation {
+	width:100%;
+	float:left;
+	margin-top:15px;
+	font-size:18px;
+}
+
+.navigation .navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.navigation .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: transparent;
+    border-bottom: solid 3px #FDC735;
+}
+
+.slider {
+	width:100%;
+	float:left;
+}
+
+.boxes {
+	width:100%;
+	float:left;
+	position:relative;
+	top:-15px;
+}
+
+.box {
+	background:#10c45c;
+	text-align:center;
+	color:#fff;
+	padding:15px;
+	border-radius:5px;
+}
+
+
+.box span {
+	font-size:65px;
+}
+
+.box h1 {
+	margin:0;
+	font-size:25px;
+	line-height:200%;
+}
+
+.welcome_msg {
+	margin-top:15px;
+	text-align:justify;
+}
+
+.welcome_msg h1 {
+	font-size:25px;
+	font-weight:400;
+}
+
+.welcome_msg span {
+	font-size:17px;
+	font-weight:400;
+	line-height:240%;
+}
+
+.wel_box  {
+	font-size:17px;
+	line-height:280%;
+	font-weight:300;
+	text-align:justify;
+	box-shadow: 0 0 5px #ddd;
+	border-radius:5px;
+	padding:8px;
+	margin-top:20px;
+	float:left;
+}
+
+.wel_box a  {
+	float:right;
+	border-radius:80px;
+	background:#307ad5;
+	border-color:#307ad5;
+}
+
+.login_bg {
+	width:100%;
+
+}
+
+.login_bg input {
+	width:100%;
+	height:38px;
+	box-shadow: 0 0 2px #9E9E9E;
+	padding:5px;
+	margin-top:20px;
+	outline: none;
+
+}
+
+.login_bg input[type="submit"] {
+	width:100%;
+	height:38px;
+	box-shadow:0 0 2px #ddd;
+	background:#fdc735;
+	padding:5px;
+	margin-top:20px;
+	font-size:20px;
+	outline: none;
+	
+	
+}
+
+.login_bg a {
+	float:left;
+	color:#000;
+	margin-top:18px;
+}
+
+.rewards {
+	width:100%;
+	margin-top:25px;
+}
+
+.rewards span {
+	font-size:28px;
+	float:left;
+	margin-right:10px;
+}
+
+.rewards h1 {
+	font-size:29px;
+	font-weight:400;
+	float:left;
+	margin:0;
+}
+
+.rewards_inn {
+	width:100%;
+	float:left;
+	background: #01559b;
+	margin-top:20px;
+	border:solid 1px #eee;
+	border-radius:5px;
+}
+
+footer {
+	width:100%;
+	float:left;
+	background:#ececec;
+	margin-top:50px;
+}
+
+footer ul {
+	text-align:center;
+	width:70%;
+	margin:auto;
+}
+
+footer li {
+	float:left;
+	list-style:none;
+	padding:25px 25px 15px 25px;
+}
+
+
+
+footer a {
+	color:#000;
+}
+
+.copyrights {
+	float:left;
+	text-align:center;
+	width:100%;
+}
+
+.social {
+	width:22%;
+	text-align:center;
+	margin:auto;
+}
+
+.social li {
+	float:left;
+	padding:25px 0px 15px 10px;
+
+}
+
+@media screen and (min-width:240px) {
+
+
+.top_bar {
+	width:100%;
+	background:#000;
+	color:#eee;
+	padding-top:10px;
+	text-align:center;
+
+}
+
+.logo {
+	margin-bottom:0px;
+}
+
+.navigation {
+	margin-top:0px;
+}
+
+.boxes {
+	width:100%;
+	float:left;
+	position:relative;
+	top:10px;
+}
+
+
+.box {
+	padding:15px;
+	margin-bottom:12px;
+}
+
+
+.box span {
+	font-size:50px;
+}
+
+.box h1 {
+	margin:0;
+	font-size:21px;
+	line-height:100%;
+
+}
+
+.welcome_msg {
+	margin-top:5px;
+}
+
+.welcome_msg h1 {
+	font-size:13px;
+	font-weight:400;
+}
+
+.welcome_msg span {
+	font-size:17px;
+	font-weight:400;
+	line-height:240%;
+}
+
+.wel_box  {
+	font-size:12px;
+	line-height:190%;
+	font-weight:400;
+}
+
+.wel_box a  {
+	border-radius:80px;
+}
+
+
+.login_bg {
+	width:100%;
+	margin-top:15px;
+	float:left;
+	text-align:center;
+
+}
+
+.login_bg h1 {
+	font-size:20px;
+
+}
+
+.login_bg input {
+	margin-top:20px;
+}
+
+
+.rewards {
+	margin-top:35px;
+}
+
+
+.rewards h1 {
+	font-size:24px;
+}
+
+
+footer ul {
+	width:100%;
+}
+
+footer li {
+	float:left;
+	list-style:none;
+	padding:10px 10px 10px 10px;
+}
+
+
+
+footer a {
+	font-size:12px;
+}
+
+.copyrights {
+	width:100%;
+	font-size:11px;
+}
+
+.social {
+	width:70%;
+}
+
+	
+}
+
+
+
+
+@media screen and (min-width:480px) {
+
+.login {
+	width:40%;
+	text-align:center;
+	margin:auto;
+	padding-top:15px;
+}
+
+
+.welcome_msg h1 {
+	font-size:20px;
+}
+
+.wel_box  {
+	font-size:14px;
+}
+
+
+	
+}
+
+
+
+
+@media screen and (min-width:768px) {
+
+.login {
+	width:100%;
+	text-align:center;
+	margin:auto;
+	padding-top:0px;
+}
+
+
+.welcome_msg h1 {
+	font-size:20px;
+}
+
+.wel_box  {
+	font-size:14px;
+}
+
+
+.box {
+	padding:15px;
+	margin-bottom:12px;
+}
+
+
+.box span {
+	font-size:40px;
+}
+
+.box h1 {
+    margin: 0;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+
+	
+}
+
+
+
+
+
+
+
+@media screen and (min-width:1100px) {
+
+
+.top_bar {
+	width:100%;
+	background:#000;
+	color:#eee;
+	padding-top:10px;
+	text-align:right;
+
+}
+
+.login {
+	width:100%;
+	padding:0;
+}
+
+.logo {
+	margin-bottom:10px;
+}
+
+.navigation {
+	width:100%;
+	float:left;
+	margin-top:15px;
+	font-size:18px;
+}
+
+.boxes {
+	width:100%;
+	float:left;
+	position:relative;
+	top:-15px;
+}
+
+
+.box {
+	background:#10c45c;
+	text-align:center;
+	color:#fff;
+	padding:15px;
+	border-radius:5px;
+}
+
+
+.box span {
+	font-size:65px;
+}
+
+.box h1 {
+	margin:0;
+	font-size:25px;
+	line-height:200%;
+}
+
+.welcome_msg {
+	margin-top:15px;
+	text-align:justify;
+}
+
+.welcome_msg h1 {
+	font-size:25px;
+	font-weight:400;
+}
+
+.welcome_msg span {
+	font-size:17px;
+	font-weight:400;
+	line-height:240%;
+}
+
+.wel_box  {
+	font-size:17px;
+	line-height:280%;
+	font-weight:300;
+	text-align:justify;
+	box-shadow: 0 0 5px #ddd;
+	border-radius:5px;
+	padding:8px;
+	margin-top:20px;
+	float:left;
+}
+
+.wel_box a  {
+	float:right;
+	border-radius:80px;
+	background:#307ad5;
+	border-color:#307ad5;
+}
+
+
+.login_bg {
+	width:100%;
+	margin-top:15px;
+	float:left;
+	text-align:center;
+
+}
+
+.login_bg h1 {
+	font-size:20px;
+
+}
+
+.login_bg input {
+	width:100%;
+	height:38px;
+	box-shadow: 0 0 2px #9E9E9E;
+	padding:5px;
+	margin-top:20px;
+	outline: none;
+
+}
+
+
+.rewards {
+	width:100%;
+	margin-top:25px;
+}
+
+
+.rewards h1 {
+	font-size:29px;
+}
+
+
+footer ul {
+	text-align:center;
+	width:75%;
+	margin:auto;
+}
+
+footer li {
+	float:left;
+	list-style:none;
+	padding:25px 25px 15px 25px;
+}
+
+
+
+footer a {
+	font-size:16px;
+}
+
+.copyrights {
+	width:100%;
+	font-size:15px;
+}
+
+.social {
+	width:22%;
+}
+
+	
+}
